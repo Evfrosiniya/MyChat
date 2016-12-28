@@ -13,7 +13,6 @@ export default class ChatView extends View {
 	init() {
 		this.chatForm = new chatForm();
 		this.chatForm.renderTo(this.getElement());
-		console.log('CHat');
 	}
 
 }

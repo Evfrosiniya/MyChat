@@ -13,7 +13,7 @@ export default class chatForm extends Form {
 		});
 		this._header._get().innerText = 'Chat';
 
-		this._chat = new Form('Log in/Sign up', {attrs: {href: '/sign'}});
+		this._chat = new Form();
 
 		this.append(this._header._get());
 	}
