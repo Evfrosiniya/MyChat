@@ -2,7 +2,7 @@
 
 const express = require('express');
 const parser = require('body-parser');
-const compression = require('compression')
+const compression = require('compression');
 
 const app = express();
 app.use(compression());

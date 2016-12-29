@@ -1,10 +1,4 @@
 node_modules/
-*.pid
-*.out
 *.log
-#*.tmpl.js
 .idea/
-.DS_Store
-public/api/
-public/coverage/
 /dist/

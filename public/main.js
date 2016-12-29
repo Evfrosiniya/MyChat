@@ -1,7 +1,7 @@
 'use strict';
 
-import './css/main.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/main.scss';
 import Router from './modules/router';
 import ChatView from './views/chatView';
 

@@ -13,6 +13,6 @@ export default class ChatView extends View {
 	init() {
 		this.chatForm = new chatForm();
 		this.chatForm.renderTo(this.getElement());
+		this.chatForm._get().setAttribute('onsubmit', 'return false; ');
 	}
-
 }
